@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Software Requirements Specification as
+described in the Rational Unified Process. Where applicable, comments will
+provide guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<!--
+Note: The SRS captures the complete software requirements for the system, or a
+portion of the system.  Following is a typical SRS outline for a project using
+use-case modeling. This artifact consists of a package containing use cases of
+the use-case model and applicable Supplementary Specifications and other
+supporting information. For a template of an SRS not using use-case modeling,
+which captures all requirements in a single document, with applicable sections
+inserted from the Supplementary Specifications (which would no longer be
+needed), see the file titled srs.xml.
+
+Many different arrangements of an SRS are possible. Refer to [IEEE93] for
+further elaboration of these explanations, as well as other options for an SRS
+organization.
+-->
+<book lang="en"><!-- Software Requirements Specification {{{-->
+
+  <!--
+  This is the front matter definition of the Software Requirements
+  Specification. Most data is set through the text entities above. Only the
+  history per revision has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>
+      Software Requirements Specification for @@@Subsystem or Feature@@@
+    </subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Software Requirements Specification (SRS) provides an
+  overview of the entire document. It includes the purpose, scope, definitions,
+  acronyms, abbreviations, references, and overview of the SRS.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Software Requirements Specification. The SRS
+    fully describes the external behavior of the application or subsystem
+    identified. It also describes nonfunctional requirements, design
+    constraints, and other factors necessary to provide a complete and
+    comprehensive description of the requirements for the software.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the software application that the Software
+    Requirements Specification applies to, the feature or other subsystem
+    grouping, what Use-case model(s) it is associated with, and anything else
+    that is affected or influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Software Requirements
+    Specification. This information may be provided by reference to the
+    project's Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Software Requirements Specification. Identify each document by
+    title, report number (if applicable), date, and publishing organization.
+    Specify the sources from which the references can be obtained. This
+    information may be provided by reference to an appendix or to another
+    document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Software Requirements
+    Specification contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This section of the Software Requirements Specification describes the general
+  factors that affect the product and its requirements. This section does not
+  state specific requirements. Instead, it provides a background for those
+  requirements, which are defined in detail in Section 3, and makes them easier
+  to understand. Include such items as product perspective, product functions,
+  user characteristics, constraints, assumptions and dependencies, and
+  requirements subsets.
+  -->
+  <chapter><!-- Overall Description {{{-->
+    <title>Overall Description</title>
+
+    <!--
+    If using use-case modeling, this section contains an overview of the
+    use-case model or the subset of the use-case model that is applicable for
+    this subsystem or feature.  This includes a list of names and brief
+    descriptions of all use cases and actors, along with applicable diagrams
+    and relationships.  Refer to the Use-Case-Model Survey Report, which may be
+    used as an enclosure at this point.
+    -->
+    <section><!-- Use-Case Model Survey {{{-->
+      <title>Use-Case Model Survey</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes any key technical feasibility, subsystem or
+    component availability, or other project related assumptions on which the
+    viability of the software described by this Software Requirements
+    Specification may be based.
+    -->
+    <section><!-- Assumptions and Dependencies {{{-->
+      <title>Assumptions and Dependencies</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This section of the Software Requirements Specification contains all software
+  requirements to a level of detail sufficient to enable designers to design a
+  system to satisfy those requirements and testers to test that the system
+  satisfies those requirements. When using use-case modeling, these
+  requirements are captured in the use cases and the applicable supplementary
+  specifications. If use-case modeling is not used, the outline for
+  supplementary specifications may be inserted directly into this section.
+  -->
+  <chapter><!-- Specific Requirements {{{-->
+    <title>Specific Requirements</title>
+
+    <!--
+    In use-case modeling, the use cases often define the majority of the
+    functional requirements of the system, along with some non-functional
+    requirements. For each use case in the above use-case model, or subset
+    thereof, refer to, or enclose, the use-case report in this section. Make
+    sure that each requirement is clearly labeled.
+    -->
+    <section><!-- Use-Case Reports {{{-->
+      <title>Use-Case Reports</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Supplementary Specifications capture requirements that are not included in
+    the use cases. The specific requirements from the Supplementary
+    Specifications, which are applicable to this subsystem or feature, should
+    be included here and refined to the necessary level of detail to describe
+    this subsystem or feature.  These may be captured directly in this document
+    or referred to as separate Supplementary Specifications, which may be used
+    as an enclosure at this point. Make sure that each requirement is clearly
+    labeled.
+    -->
+    <section><!-- Supplementary Requirements {{{-->
+      <title>Supplementary Requirements</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  The supporting information makes the Software Requirements Specification
+  easier to use.  It includes:
+
+    * Table of Contents
+    * Index
+    * Appendices 
+
+  These may include use-case storyboards or user-interface prototypes. When
+  appendices are included, the Software Requirements Specification should
+  explicitly state whether or not the appendices are to be considered part of
+  the requirements.
+  -->
+  <chapter><!-- Supporting Information {{{-->
+    <title>Supporting Information</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

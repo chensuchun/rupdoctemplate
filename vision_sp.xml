@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Vision Document for a small project as
+described in the Rational Unified Process. Where applicable, comments will
+provide guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<!--
+The purpose of this document is to collect, analyze, and define high-level
+needs and features of the System. It focuses on the capabilities needed by the
+stakeholders, and the target users, and why these needs exist. The details of
+how the System fulfills these needs are detailed in the use-case and
+supplementary specifications.
+-->
+<book lang="en"><!-- Vision Document {{{-->
+
+  <!--
+  Below are the chapters for the Vision document. If there are unwanted
+  chapters just wrap them in comment tags.
+  -->
+
+  <!--
+  This is the front matter definition of the Vision Document. Most data is set
+  through the text entities above. Only the history per revision has to be set
+  by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Vision Document (small project)</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Vision document provides an overview of the entire
+  document. It includes the purpose and references of this Vision document.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <para>
+      The purpose of this document is to collect, analyze, and define
+      high-level needs and features of the &projectname;. It focuses on the
+      capabilities needed by the stakeholders, and the target users, and why
+      these needs exist. The details of how the &projectname; fulfills these
+      needs are detailed in the use-case and supplementary specifications.
+    </para>
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Vision document. Identify each document by title, report number if
+    applicable, date, and publishing organization. Specify the sources from
+    which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter helps to position the possible product in the marketplace by
+  describing where you think its place is in the market, the business
+  opportunities and what problems it solves.
+  -->
+  <chapter><!-- Positioning {{{-->
+    <title>Positioning</title>
+
+    <!--
+    Provide a statement summarizing the problem being solved by this project.
+    The following format may be used (see the commented entries):
+    -->
+    <section><!-- Problem statement {{{-->
+      <title>Problem statement</title>
+      <para>
+        <!--
+        The following table can be used to summarize the problem. See the
+        commented entries.
+        -->
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>The problem of</entry>
+                <entry>
+                  <!--
+                  Describe the problem
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>affects</entry>
+                <entry>
+                  <!--
+                  The stakeholders affected by the problem
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>the impact of which is</entry>
+                <entry>
+                  <!--
+                  What is the impact of the problem?
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>A successful solution would be</entry>
+                <entry>
+                  <!--
+                  List some key benefits of a successful solution
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A product position statement communicates the intent of the application and
+    the importance of the project to all concerned personnel.
+    -->
+    <section><!-- Product position statement {{{-->
+      <title>Product position statement</title>
+      <para>
+
+        <!--
+        Provide an overall statement summarizing at the highest level, the
+        unique position the product intends to fill in the marketplace. The
+        following format may be used (see the commented entries):
+        -->
+
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>For</entry>
+                <entry>
+                  <!--
+                  Target customer
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Who</entry>
+                <entry>
+                  <!--
+                  Statement of the need or opportunity
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>The &projectname;</entry>
+                <entry>
+                  is a
+                  <!--
+                  Product category
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>That</entry>
+                <entry>
+                  <!--
+                  Statement of key benefit; that is,- compelling reason to buy.
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Unlike</entry>
+                <entry>
+                  <!--
+                  Primary competitive alternative.
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Our product</entry>
+                <entry>
+                  <!--
+                  Statement of primary differentiation.
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  To effectively provide products and services that meet your stakeholders' and
+  users' real needs, it is necessary to identify and involve all of the
+  stakeholders as part of the Requirements Modeling process. You must also
+  identify the users of the system and ensure that the stakeholder community
+  adequately represents them. This chapter provides a profile of the
+  stakeholders and users involved in the project and the key problems that they
+  perceive to be addressed by the proposed solution. It does not describe their
+  specific requests or requirements as these are captured in a separate
+  stakeholder requests artifact. Instead it provides the background and
+  justification for why the requirements are needed.
+  -->
+  <chapter><!-- Stakeholder and user descriptions {{{-->
+    <title>Stakeholder and user descriptions</title>
+
+    <!--
+    There are a number of stakeholders with an interest in the development and
+    not all of them are end users. Present a summary list of all the identified
+    stakeholders. The users are summarized in the section after this one.
+    -->
+    <section><!-- Stakeholder summary {{{-->
+      <title>Stakeholder summary</title>
+      <para>
+
+        <!--
+        Just add more rows to the table if necessary.
+        -->
+
+        <informaltable>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Name</entry>
+                <entry>Description</entry>
+                <entry>Responsibilities</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <!--
+                  Name the stakeholder type
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Briefly describe the stakeholder
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Summarize the stakeholder's key responsibilities with regard to
+                  the system being developed; that is, their interest as a
+                  stakeholder. For example, this stakeholder:
+                    * ensures that the system will be maintainable
+                    * ensures that there will be a market demand for the
+                      product's features
+                    * monitors the project's progress approves funding
+                    * and so forth
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Present a summary list of all the identified users.
+    -->
+    <section><!-- User summary {{{-->
+      <title>User summary</title>
+      <para>
+
+        <!--
+        Just add more rows to the table if necessary.
+        -->
+
+        <informaltable>
+          <tgroup cols="4">
+            <thead>
+              <row>
+                <entry>Name</entry>
+                <entry>Description</entry>
+                <entry>Responsibilities</entry>
+                <entry>Stakeholder</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <!--
+                  Name the user type
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Briefly describe what they represent with respect to the
+                  system.
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  List the user's key responsibilities with regard to the system
+                  being developed; for example:
+                    * captures details
+                    * produces reports
+                    * coordinates work
+                    * and so on
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  If the user is not directly represented, identify which
+                  stakeholder is responsible for representing the user's
+                  interest.
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Detail the working environment of the target user. Here are some
+    suggestions:
+      * Number of people involved in completing the task? Is this changing?
+      * How long is a task cycle? Amount of time spent in each activity? Is
+        this changing?
+      * Any unique environmental constraints: mobile, outdoors, in-flight,
+        etc.?
+      * Which systems platforms are in use today? Future platforms?
+      * What other applications are in use? Does your application need to
+        integrate with them?
+    This is where extracts from the Business Model could be included to outline
+    the task and workers involved etc.
+    -->
+    <section><!-- User environment {{{-->
+      <title>User environment</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    List the key problems with existing solutions as perceived by the
+    stakeholder. Clarify the following issues for each problem:
+      * What are the reasons for this problem?
+      * How is it solved now?
+      * What solutions does the stakeholder want?]
+    It is important to understand the relative importance the stakeholder or
+    user places on solving each problem. Ranking and cumulative voting
+    techniques indicate problems that must be solved versus issues they would
+    like addressed.
+    -->
+    <section><!-- Summary of Key Stakeholder / User Needs {{{-->
+      <title>Summary of Key Stakeholder / User Needs</title>
+
+      <para>
+
+        <!--
+        Fill in the following table - if using ReqPro to capture the Needs, this
+        could be an extract or report from that tool. Add more rows when necessary.
+        -->
+
+        <informaltable>
+          <tgroup cols="5">
+            <thead>
+              <row>
+                <entry>Need</entry>
+                <entry>Priority</entry>
+                <entry>Concerns</entry>
+                <entry>Current Solution</entry>
+                <entry>Proposed Solutions</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify alternatives the stakeholder perceives as available. These can
+    include buying a competitors' product, building a homegrown solution or
+    simply maintaining the status quo. List any known competitive choices that
+    exist, or may become available. Include the major strengths and weaknesses
+    of each competitor as perceived by the stakeholder.
+    -->
+    <section><!-- Alternatives and competition {{{-->
+      <title>Alternatives and competition</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter provides a high level view of the product capabilities,
+  interfaces to other applications, and systems configurations. This section
+  usually consists of two subsections, as follows:
+    * Product perspective
+    * Assumptions and dependencies
+  -->
+  <chapter><!-- Product overview {{{-->
+    <title>Product overview</title>
+
+    <!--
+    This section of the Vision document should put the product in perspective
+    to other related products and the user's environment. If the product is
+    independent and totally self-contained, state it here. If the product is a
+    component of a larger system, then this section should relate how these
+    systems interact and should identify the relevant interfaces between the
+    systems. One easy way to display the major components of the larger system,
+    interconnections, and external interfaces is via a block diagram.
+    -->
+    <section><!-- Product perspective {{{-->
+      <title>Product perspective</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    List each of the factors that affects the features stated in the Vision
+    document. List assumptions that, if changed, will alter the Vision
+    document. For example, an assumption may state that a specific operating
+    system will be available for the hardware designated for the software
+    product. If the operating system is not available, the Vision document will
+    need to change.
+    -->
+    <section><!-- Assumptions and dependencies {{{-->
+      <title>Assumptions and dependencies</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  List and briefly describe the product features. Features are the high-level
+  capabilities of the system that are necessary to deliver benefits to the
+  users. Each feature is an externally desired service that typically requires
+  a series of inputs to achieve the desired result. For example, a feature of a
+  problem tracking system might be the ability to provide trending reports. As
+  the use-case model takes shape, update the description to refer to the use
+  cases.
+
+  Because the Vision document is reviewed by a wide variety of involved
+  personnel, the level of detail should be general enough for everyone to
+  understand. However, enough detail should be available to provide the team
+  with the information they need to create a use-case model.
+
+  To effectively manage application complexity, we recommend for any new
+  system, or an increment to an existing system, capabilities are abstracted to
+  a high enough level so 25-99 features result. These features provide the
+  fundamental basis for product definition, scope management, and project
+  management. Each feature will be expanded in greater detail in the use-case
+  model.
+
+  Throughout this chapter, each feature should be externally perceivable by
+  users, operators or other external systems. These features should include a
+  description of functionality and any relevant usability issues that must be
+  addressed. The following guidelines apply:
+    *	Avoid design. Keep feature descriptions at a general level. Focus on
+      capabilities needed and why, (not how) they should be implemented.
+    * If you are using the Requisite toolkit, all should be selected as
+      requirements of type for easy reference and tracking.
+
+  Define the priority of the different system features. Include, if useful,
+  attributes such as stability, benefit, effort, and risk.
+  -->
+  <chapter><!-- Product Features {{{-->
+    <title>Product Features</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  At a high-level, list applicable standards, hardware or platform
+  requirements, performance requirements, and environmental requirements.
+
+  Define the quality ranges for performance, robustness, fault tolerance,
+  usability, and similar characteristics that are not captured in the Feature
+  Set.
+
+  Note any design constraints, external constraints, or other dependencies.
+
+  Define any specific documentation requirements, including user manuals,
+  online help, installation, labeling, and packaging requirements.
+
+  Define the priority of these other product requirements. Include, if useful,
+  attributes such as stability, benefit, effort, and risk.
+  -->
+  <chapter><!-- Other product requirements {{{-->
+    <title>Other product requirements</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

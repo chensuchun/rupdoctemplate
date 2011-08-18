@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Bill of Materials as described in the
+Rational Unified Process. Where applicable, comments will provide guidance to
+the author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Bill of Materials {{{-->
+
+  <!--
+  This is the front matter definition of the Bill of Materials. Most data is
+  set through the text entities above. Only the history per revision has to be
+  set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Bill of Material</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Bill of Material should provide an overview of the
+  entire document. It should include the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of this Vision document.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Provide an overview of the entire document.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify the recipients for the items identified in the Bill of Materials;
+    for example, the source code is typically not released to all recipients.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Bill of Materials. This
+    information may be provided by reference to the project’s Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Bill of Materials. Identify each document by title, report number if
+    applicable, date, and publishing organization. Specify the sources from
+    which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Bill of Materials contains and
+    explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Description {{{-->
+    <title>Description</title>
+
+    <!--
+    List all physical media, such as CDs, floppies, and so on, and associated
+    documentation that makes up the software version being released. Identify
+    numbers, titles, abbreviations, dates, versions, and release numbers as
+    applicable.
+    -->
+    <section><!-- Inventory of Materials {{{-->
+      <title>Inventory of Materials</title>
+      <para>
+      </para>
+
+      <!--
+      Describe safeguards for handling the material, such as concerns for
+      static and magnetic fields, and instructions and restrictions regarding
+      duplication and licensing.
+      -->
+      <section><!-- Handling Considerations {{{-->
+        <title>Handling Considerations</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+    <!--
+    List all files that make up the software version being released. Identify
+    numbers, titles, abbreviations, dates, versions, and release numbers as
+    applicable.
+    -->
+    <section><!-- Inventory of Software Contents {{{-->
+      <title>Inventory of Software Contents</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    List all changes incorporated into the software version since the previous
+    version. Identify, as applicable, the problem reports and Change Requests
+    associated with each change. Describe the effect of each change on software
+    use or operation, as applicable.
+    -->
+    <section><!-- Changes {{{-->
+      <title>Changes</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify any site-unique data contained in the software.
+    -->
+    <section><!-- Adaptation Data {{{-->
+      <title>Adaptation Data</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Provide or reference the following information:
+      * instructions for installing the software
+      * procedures for determining whether the version has been properly
+        installed
+    -->
+    <section><!-- Installation Instructions {{{-->
+      <title>Installation Instructions</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify any possible problems or known errors with the software at the
+    time of release. Describe steps that can be taken to recognize, avoid,
+    correct or handle any problematic features.
+    -->
+    <section><!-- Known Errors and Problematic Features {{{-->
+      <title>Known Errors and Problematic Features</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

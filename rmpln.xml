@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Requirements Management Plan as described
+in the Rational Unified Process. Where applicable, comments will provide
+guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Requirements Management Plan {{{-->
+
+  <!--
+  This is the front matter definition of the Requirements Management Plan. Most
+  data is set through the text entities above. Only the history per revision
+  has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Requirements Management Plan</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Requirements Management Plan provides an overview of
+  the entire document. It includes the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of this Requirements Management Plan.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Requirements Management Plan.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Requirements Management Plan.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Requirements Management
+    Plan. This information may be provided by reference to the project's
+    Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Requirements Management Plan. Identify each document by title,
+    report number if applicable, date, and publishing organization. Specify the
+    sources from which the references can be obtained. This information may be
+    provided by reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Requirements Management Plan
+    contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Requirements Management {{{-->
+    <title>Requirements Management</title>
+
+    <!--
+    Describe who is going to be responsible for performing the various
+    activities described in the requirements workflows.
+    -->
+    <section><!-- Organization, Responsibilities, and Interfaces {{{-->
+      <title>Organization, Responsibilities, and Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe the computing environment and software tools to be used in
+    fulfilling the Requirements Management functions throughout the project or
+    product lifecycle.
+
+    Describe the tools and procedures used to version control Requirements
+    items generated throughout the project or product lifecycle.
+    -->
+    <section><!-- Tools, Environment, and Infrastructure {{{-->
+      <title>Tools, Environment, and Infrastructure</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- The Requirements Management Program {{{-->
+    <title>The Requirements Management Program</title>
+
+    <!--
+    Describe traceability items and define how they are to be named, marked,
+    and numbered. (A traceability item is any project element that needs to be
+    explicitly traced from another textual or model item in order to keep track
+    of the dependencies between them. With respect to Rational Requisite Pro,
+    this definition can be rephrased as: any project element represented within
+    RequisitePro by an instance of a RequisitePro requirement type.)
+    -->
+    <section><!-- Requirements Identification {{{-->
+      <title>Requirements Identification</title>
+
+      <para>
+
+        <!--
+        For each type of requirement document or artifact in your project, list
+        the traceability items contained in it and briefly explain what it is
+        used for. You may also wish to list the responsible role.
+
+        The table below is provided as an example. Extend if and when
+        necessary.
+        -->
+        <informaltable>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Artifact (Document Type)</entry>
+                <entry>Traceability Item</entry>
+                <entry>Description</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  Stakeholder Requests (STR)
+                </entry>
+                <entry>
+                  Stakeholder Request (STRQ)
+                </entry>
+                <entry>
+                  <!--
+                  If you use a Change Request Management tool, such as
+                  Rational ClearQuest, then stakeholder requests are often
+                  stored in that tool and not duplicated in the requirements
+                  management tool.
+                  -->
+                  Key requests, including Change Requests, from stakeholders.
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  Vision (VIS)
+                </entry>
+                <entry>
+                  Stakeholder Need (NEED)
+                </entry>
+                <entry>
+                  Key stakeholder or user need.
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  Vision (VIS)
+                </entry>
+                <entry>
+                  Feature (FEAT)
+                </entry>
+                <entry>
+                  Conditions or capabilities of this release of the system.
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  Use-Case Model
+                </entry>
+                <entry>
+                  Use Case (UC)
+                </entry>
+                <entry>
+                  Use cases for this release, documented in Rational Rose.
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  Supplementary Specification (SS)
+                </entry>
+                <entry>
+                  Supplementary Requirement (SUPP)
+                </entry>
+                <entry>
+                  Non-functional requirements that are not captured in the
+                  use-case model.
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Overview of traceability, for example, a traceability graph.
+    -->
+    <section><!-- Traceability {{{-->
+      <title>Traceability</title>
+
+      <para>
+      </para>
+
+      <!--
+      For each traceability item you have identified, list any additional rules
+      or guidelines that apply to traceability links. Describe any applicable
+      constraints, such as "every approved feature must trace to one or more
+      Use Cases or to one or more Supplementary Requirements".
+
+      Add new sections for each traceability item
+      -->
+      <section>
+        <title>Criteria for @@@Traceability Item@@@</title>
+
+        <para>
+        </para>
+
+      </section>
+
+    </section><!--}}}-->
+
+    <section><!-- Attributes {{{-->
+      <title>Attributes</title>
+
+      <!--
+      For each traceability item you have identified, list what attributes you
+      will be using and briefly explain what they mean. For example, the
+      following attributes might be specified for a traceability item of
+      "feature".
+
+      Add new sections for each traceability item
+      -->
+      <section>
+        <title>Attributes for @@Traceability Item@@@</title>
+
+        <!--
+        Set after negotiation and review by the project management team. Tracks
+        progress during definition of the project baseline.
+        -->
+        <formalpara>
+          <title>Status</title>
+
+          <para>
+
+            <informaltable>
+              <tgroup cols="2">
+                <tbody>
+                  <row>
+                    <entry>Proposed</entry>
+                    <entry>
+                      <!--
+                      Used to describe features that are under discussion but
+                      have not yet been reviewed and accepted by the "official
+                      channel", such as a working group consisting of
+                      representatives from the project team, product
+                      management, and user or customer community.
+                      -->
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Approved</entry>
+                    <entry>
+                      <!--
+                      Capabilities that are deemed useful and feasible, and
+                      have been approved for implementation by the official
+                      channel.
+                      -->
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Rejected</entry>
+                    <entry>
+                      <!--
+                      Rejected by the official channel.
+                      -->
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Incorporated</entry>
+                    <entry>
+                      <!--
+                      Features incorporated into the product baseline at a
+                      specific point in time.
+                      -->
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
+
+          </para>
+
+        </formalpara>
+
+        <!--
+        Set by Marketing, the product manager or the business analyst. All
+        requirements are not created equal. Ranking requirements by their
+        relative benefit to the end user opens a dialogue with customers,
+        analysts, and members of the development team. Used in managing scope
+        and determining development priority.
+        -->
+        <formalpara>
+          <title>Benefit</title>
+
+          <para>
+
+            <informaltable>
+              <tgroup cols="2">
+                <tbody>
+                  <row>
+                    <entry>Critical</entry>
+                    <entry>
+                      <!--
+                      Essential features. Failure to implement means the system
+                      will not meet customer needs. All critical features must
+                      be implemented in the release or the schedule will slip.
+                      -->
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Important</entry>
+                    <entry>
+                      <!--
+                      Features important to the effectiveness and efficiency of
+                      the system for most applications. The functionality
+                      cannot be easily provided in some other way. Lack of
+                      inclusion of an important feature may affect customer or
+                      user satisfaction, or even revenue, but release will not
+                      be delayed due to lack of any important feature.
+                      -->
+                    </entry>
+                  </row>
+                  <row>
+                    <entry>Useful</entry>
+                    <entry>
+                      <!--
+                      Features that are useful in less typical applications or
+                      for which reasonably efficient workarounds can be
+                      achieved will be used less frequently. No significant
+                      revenue or customer satisfaction impact can be expected
+                      if such an item is not included in a release.
+                      -->
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
+
+          </para>
+
+        </formalpara>
+
+        <!--
+        Set by the development team. Because some features require more time
+        and resources than others, estimating the number of team or
+        person-weeks, lines of code required or function points, for example,
+        is the best way to gauge complexity and set expectations of what can
+        and cannot be accomplished in a given time frame. Used in managing
+        scope and determining development priority.
+        -->
+        <formalpara>
+          <title>Effort</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+        <!--
+        Set by the development team and based on the probability the project
+        will experience undesirable events, such as cost overruns, schedule
+        delays, or even cancellations. Most project managers find categorizing
+        risks as high, medium, and low to be sufficient, although finer
+        gradations are possible. Risk can often be assessed indirectly by
+        measuring the uncertainty (range) of the projects' team's estimated
+        schedule.
+        -->
+        <formalpara>
+          <title>Risk</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+        <!--
+        Set by the analyst and development team, this is based on the
+        probability that the feature will change or the team's understanding of
+        the feature will change. Used to help establish development priorities
+        and determine those items for which additional elicitation is the
+        appropriate next action.
+        -->
+        <formalpara>
+          <title>Stability</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+        <!--
+        Records the intended product version in which the feature will first
+        appear. This field can be used to allocate features from a Vision
+        document into a particular baseline release. When combined with the
+        status field, your team can propose, record, and discuss various
+        features of the release without committing them to development. Only
+        features whose Status is set to Incorporated and whose Target Release
+        is defined will be implemented. When scope management occurs, the
+        Target Release Version Number can be increased so the item will remain
+        in the Vision document, but will be scheduled for a later release.
+        -->
+        <formalpara>
+          <title>Target Release</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+        <!--
+        In many projects, features will be assigned to "feature teams"
+        responsible for further elicitation, writing the software requirements
+        and implementation. This simple pull-down list will help everyone on
+        the project team to better understand responsibilities.
+        -->
+        <formalpara>
+          <title>Assigned To</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+        <!--
+        This text field is used to track the source of the requested feature.
+        Requirements exist for specific reasons. This field records an
+        explanation or a reference to an explanation. For example, the
+        reference might be to a page and line number of a product requirement
+        specification or to a minute marker on a video of an important customer
+        interview.
+        -->
+        <formalpara>
+          <title>Reason</title>
+
+          <para>
+          </para>
+
+        </formalpara>
+
+      </section>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe the content, format, and purpose of the requested reports or
+    measures.
+    -->
+    <section><!-- Reports and Measures {{{-->
+      <title>Reports and Measures</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <section><!-- Requirements Change Management {{{-->
+      <title>Requirements Change Management</title>
+
+      <!--
+      Describe the process by which problems and changes are submitted,
+      reviewed, and dispositioned. This should include the process for
+      negotiating requirements changes with customers, and any contractual
+      processes, activities, and constraints.
+      -->
+      <section><!-- Request Processing and Approval {{{-->
+        <title>Request Processing and Approval </title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      Describe the membership and procedures for processing change requests and
+      approvals to be followed by the CCB.
+      -->
+      <section><!-- Change Control Board (CCB) {{{-->
+        <title>Change Control Board (CCB)</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      Baselines provide an official standard on which subsequent work is based
+      and to which only authorized changes are made.
+
+      Describe at what points during the project or product lifecycle baselines
+      are to be established. The most common baselines would be at the end of
+      the Inception, Elaboration, Construction, and Transition phases.
+      Baselines could also be generated at the end of iterations within the
+      various phases or even more frequently.
+
+      Describe who authorizes a baseline and what goes into it.
+      -->
+      <section><!-- Project Baselines {{{-->
+        <title>Project Baselines</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+    <!--
+    Describe the workflows and activities that apply to managing requirements.
+
+    Describe review activities, including review objectives, responsibilities,
+    timing, and procedures.
+    -->
+    <section><!-- Workflows and Activities {{{-->
+      <title>Workflows and Activities</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Identify the internal and customer milestones related to the Requirements
+  Management effort. This chapter should include details on when the
+  Requirements Management Plan itself is to be updated.
+  -->
+  <chapter><!-- Milestones {{{-->
+    <title>Milestones</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Describe the software tools, personnel, and training required to implement
+  the specified Requirements Management activities.
+  -->
+  <chapter><!-- Training and Resources {{{-->
+    <title>Training and Resources</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

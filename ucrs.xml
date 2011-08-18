@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Use-Case-Realization Specification as
+described in the Rational Unified Process. Where applicable, comments will
+provide guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY usecasename    "@@@ Use-Case Name @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Use-Case-Realization Specification {{{-->
+
+  <!--
+  This is the front matter definition of the Use-Case-Realization
+  Specification. Most data is set through the text entities above. Only the
+  history per revision has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Use-Case-Realization Specification: &usecasename;</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Use-Case Realization Specification provides an
+  overview of the entire document. It includes the purpose, scope, definitions,
+  acronyms, abbreviations, references, and overview of this Use-Case
+  Realization Specification.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Use-Case Realization Specification
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Use-Case Realization
+    Specification; what Use Case model(s) it is associated with, and anything
+    else that is affected or influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Use-Case Realization
+    Specification. This information may be provided by reference to the
+    project's Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Use-Case Realization Specification. Identify each document by title,
+    report number (if applicable), date, and publishing organization. Specify
+    the sources from which the references can be obtained. This information may
+    be provided by reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Use-Case Realization
+    Specification contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  A textual description of how the use case is realized in terms of
+  collaborating objects. Its main purpose is to summarize the diagrams
+  connected to the use case and to explain how they are related.
+  -->
+  <chapter><!-- Flow of Events - Design {{{-->
+    <title>Flow of Events - Design</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A textual description that collects all requirements, such as non-functional
+  requirements, on the use-case realizations not considered in the design
+  model, but that need to be taken care of during implementation.
+  -->
+  <chapter><!-- Derived Requirements {{{-->
+    <title>Derived Requirements</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

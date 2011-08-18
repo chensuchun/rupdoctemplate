@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Glossary as described in the Rational
+Unified Process. Where applicable, comments will provide guidance to the
+author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Glossary {{{-->
+
+  <!--
+  This is the front matter definition of the Glossary. Most data is set through
+  the text entities above. Only the history per revision has to be set by hand.
+  See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Glossary</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Glossary provides an overview of the entire document.
+  Present any information the reader might need to understand the document in
+  this section. This document is used to define terminology specific to the
+  problem domain, explaining terms that may be unfamiliar to the reader of the
+  use-case descriptions or other project documents. Often, this document can be
+  used as an informal data dictionary, capturing data definitions so that
+  use-case descriptions and other project documents can focus on what the
+  system must do with the information. This document should be saved in a file
+  called Glossary.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Glossary.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Glossary; what Project(s) it is
+    associated with and anything else that is affected or influenced by this
+    document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Glossary. Identify each document by title, report number (if
+    applicable), date, and publishing organization. Specify the sources from
+    which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Glossary contains and explains
+    how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  The terms defined here form the essential substance of the document. They can
+  be defined in any order desired, but generally alphabetical order provides
+  the greatest accessibility.
+  -->
+  <chapter><!-- Definitions {{{-->
+    <title>Definitions</title>
+
+    <para>
+    </para>
+
+    <!--
+    The definition for a Term is presented here. As much information as the
+    reader needs to understand the concept should be presented.
+
+    Replace the '@@@'s and the text in between with the term.
+
+    Add sections for each term.
+    -->
+    <section>
+      <title>@@@ Term @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+    <!--
+    Sometimes it is useful to organize terms into groups to improve
+    readability. For example, if the problem domain contains terms related to
+    both accounting and building construction (as would be the case if we were
+    developing a system to manage construction projects), presenting the terms
+    from the two different sub-domains might prove confusing to the reader. To
+    solve this problem, we use groupings of terms. In presenting the grouping
+    of terms, provide a short description that helps the reader understand what
+    a Group of Terms represents. Terms presented within the group should be
+    organized alphabetically for easy access.
+
+    Replace the '@@@'s and the text in between with the name of the group.
+
+    Add sections for each group.
+    -->
+    <section>
+      <title>@@@ Group of Terms @@@</title>
+
+      <!--
+      The definition for a Group Term is presented here. Present as much
+      information as the reader needs to understand the concept.
+
+      Replace the '@@@'s and the text in between with the term.
+
+      Add sections for each term.
+      -->
+      <section>
+        <title>@@@ A Group Term @@@</title>
+
+        <para>
+        </para>
+
+      </section>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This section contains or references specifications of Unified Modeling
+  Language (UML) stereotypes and their semantic implications-a textual
+  description of the meaning and significance of the stereotype and any
+  limitations on its use—for stereotypes already known or discovered to be
+  important for the system being modeled. The use of these stereotypes may be
+  simply recommended or perhaps even made mandatory; for example, when their
+  use is required by an imposed standard or when it is felt that their use
+  makes models significantly easier to understand. This section may be empty if
+  no additional stereotypes, other than those predefined by the UML and the
+  Rational Unified Process, are considered necessary.
+  -->
+  <chapter><!-- UML Stereotypes {{{-->
+    <title>UML Stereotypes</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

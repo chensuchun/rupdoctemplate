@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Business Use-Case Specification as
+described in the Rational Unified Process. Where applicable, comments will
+provide guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY usecasename    "@@@ Business Use-Case Name @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Business Use-Case Specification {{{-->
+
+  <!--
+  This is the front matter definition of the Business Use-Case Specification.
+  Most data is set through the text entities above. Only the history per
+  revision has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Business Use-Case Specification: &usecasename;</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Business Use-Case Specification provides an overview
+  of the entire document. It includes the purpose, scope, definitions,
+  acronyms, abbreviations, references, and overview of this Business Use-Case
+  Specification.
+
+  Note: If you are not using Rational RequisitePro, then this document template
+  should be used to capture the actual Business Use Case including the
+  workflow, special requirements, and performance goals of the Business Use
+  Case. This file should be linked to the corresponding business use case in
+  the Rational Rose model.
+
+  If you use Rational SoDA, then this document is used as input to the business
+  use-case report that combines this content with use-case diagrams from
+  Rational Rose.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Business Use-Case Specification.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Business Use-Case Specification;
+    what Use Case model(s) it is associated with and anything else that is
+    affected or influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Business Use-Case
+    Specification. This information may be provided by reference to the
+    project's Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Business Use-Case Specification. Identify each document by title,
+    report number if applicable, date, and publishing organization.  Specify
+    the sources from which the references can be obtained. This information may
+    be provided by reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Business Use-Case Specification
+    contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Named Business Use-Case {{{-->
+    <title>&usecasename;</title>
+
+    <!--
+    The description briefly conveys the role and purpose of the business use
+    case. A single paragraph will suffice for this description.
+    -->
+    <section><!-- Brief Description {{{-->
+      <title>Brief Description</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  A specification of the measurable goals or objectives of the business use
+  case.
+  -->
+  <chapter><!-- Goals {{{-->
+    <title>Goals</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A specification of the metrics relevant to the business use case and a
+  definition of the goals you want to achieve by using those metrics.
+  -->
+  <chapter><!-- Performance Goals {{{-->
+    <title> Performance Goals</title>
+
+    <!--
+    A brief description of the performance goal.
+
+    Replace the '@@@'s and the text in between with the name of the performance
+    goal.
+
+    Add a section for each performance goal.
+    -->
+    <section>
+      <title>@@@ Performance Goal @@@</title>
+      <para>
+      </para>
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A textual description of the workflow the business use case represents. The
+  workflow describes what the business does to deliver value to a business
+  actor, not how the business solves its problems. 
+
+  Only one level of workflow steps is indicated in the subsections below, but
+  you may add more levels if necessary.
+  -->
+  <chapter><!-- Workflow {{{-->
+    <title>Workflow</title>
+
+    <!--
+    Describe the basic workflow here.
+    -->
+    <section><!-- Basic Workflow {{{-->
+      <title>Basic Workflow</title>
+
+      <!--
+      Describe a single step in the basic workflow.
+
+      Replace the '@@@'s and the text in between with the name of the
+      workflow step.
+
+      Add a section for each workflow step.
+      -->
+      <section>
+        <title>@@@ Name of workflow step @@@</title>
+        <para>
+        </para>
+      </section>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe the alternative workflows here.
+    -->
+    <section><!-- Alternative Workflows {{{-->
+      <title>Alternative Workflows</title>
+
+      <!--
+      Describe a single step in the alternative workflow.
+
+      Replace the '@@@'s and the text in between with the name of the
+      workflow step.
+
+      Add a section for each workflow step.
+      -->
+      <section>
+        <title>@@@ Name of workflow step @@@</title>
+        <para>
+        </para>
+      </section>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Indicate whether the business use case is a "core", "supporting", or
+  "management" category.
+  -->
+  <chapter><!-- Category {{{-->
+    <title>Category</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Specify the risks of executing or implementing the business use case.
+  -->
+  <chapter><!-- Risk {{{-->
+    <title>Risk</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Describe the estimated improvement potential of the business use case.
+  -->
+  <chapter><!-- Possibilities {{{-->
+    <title>Possibilities</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Define who the owner of the business process is: this is the person who
+  manages and plans for the changes.
+  -->
+  <chapter><!-- Process Owner {{{-->
+    <title>Process Owner</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  The special requirements of the business use case are included here. These
+  requirements are not covered by the workflow as it has been described in the
+  sections above.
+  -->
+  <chapter><!-- Special Requirements {{{-->
+    <title>Special Requirements</title>
+
+    <!--
+    A brief description of the special requirement.
+
+    Replace the '@@@'s and the text in between with the name of the
+    requirement.
+
+    Add a section for each requirement.
+    -->
+    <section>
+      <title>@@@ Name of Special Requirement @@@</title>
+      <para>
+      </para>
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Extension points of the business use case.
+  -->
+  <chapter><!-- Extension Points {{{-->
+    <title>Extension Points</title>
+
+    <!--
+    A definition of the location of the extension point in the flow of events.
+
+    Replace the '@@@'s and the text in between with the name of the
+    extension point.
+
+    Add a section for each extension point.
+    -->
+    <section>
+      <title>@@@ Name of Special Requirement @@@</title>
+      <para>
+      </para>
+    </section>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

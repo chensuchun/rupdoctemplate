@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Software Development Plan as described in
+the Rational Unified Process. Where applicable, comments will provide guidance
+to the author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Software Development Plan {{{-->
+
+  <!--
+  This is the front matter definition of the Software Development Plan. Most
+  data is set through the text entities above. Only the history per revision
+  has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Software Development Plan</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Software Development Plan should provide an overview
+  of the entire document. It should include the purpose, scope, definitions,
+  acronyms, abbreviations, references, and overview of this Software
+  Development Plan.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Software Development Plan.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Software Development Plan; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Software Development Plan.
+    This information may be provided by reference to the project's Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Software Development Plan. Identify each document by title, report
+    number if applicable, date, and publishing organization.  Specify the
+    sources from which the references can be obtained. This information may be
+    provided by reference to an appendix or to another document. 
+
+    For the Software Development Plan, the list of referenced artifacts
+    includes: 
+
+      * Iteration Plans 
+      * Requirements Management Plan 
+      * Measurement Plan 
+      * Risk Management Plan 
+      * Development Case 
+      * Business Modeling Guidelines 
+      * User Interfaces Guidelines 
+      * Use-Case-Modeling Guidelines 
+      * Design Guidelines 
+      * Programming Guidelines 
+      * Test Guidelines 
+      * Manual Style Guide 
+      * Infrastructure Plan 
+      * Product Acceptance Plan 
+      * Configuration Management Plan 
+      * Evaluation Plan (only if this is a separate plan-normally this is
+        addressed in Section 6.2 of the Software Development Plan)
+      * Documentation Plan 
+      * Quality Assurance Plan 
+      * Problem Resolution Plan 
+      * Subcontractor Management Plan 
+      * Process Improvement Plan
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Software Development Plan
+    contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Project Overview {{{-->
+    <title>Project Overview</title>
+
+    <!--
+    A brief description of the purpose and objectives of this project and a
+    brief description of what deliverables the project is expected to deliver.
+    -->
+    <section><!-- Project Purpose, Scope, and Objectives {{{-->
+      <title>Project Purpose, Scope, and Objectives</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A list of assumptions that this plan is based and any constraints, for
+    example. budget, staff, equipment, schedule, that apply to the project.
+    -->
+    <section><!-- Assumptions and Constraints {{{-->
+      <title>Assumptions and Constraints</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A tabular list of the artifacts to be created during the project, including
+    target delivery dates.
+    -->
+    <section><!-- Project Deliverables {{{-->
+      <title>Project Deliverables</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A table of proposed versions of the Software Development Plan, and the
+    criteria for the unscheduled revision and reissue of this plan.
+    -->
+    <section><!-- Evolution of the Software Development Plan {{{-->
+      <title>Evolution of the Software Development Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Project Organization {{{-->
+    <title>Project Organization</title>
+
+    <!--
+    Describe the organizational structure of the project team, including
+    management and other review authorities.
+    -->
+    <section><!-- Organizational Structure {{{-->
+      <title>Organizational Structure </title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Describe how the project interfaces with external groups. For each external
+    group, identify the internal and external contact names.
+    -->
+    <section><!-- External Interfaces {{{-->
+      <title>External Interfaces</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify the project organizational units that will be responsible for each
+    of the disciplines, workflow details, and supporting processes.
+    -->
+    <section><!-- Roles and Responsibilities {{{-->
+      <title>Roles and Responsibilities</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Management Process {{{-->
+    <title>Management Process</title>
+
+    <!--
+    Provide the estimated cost and schedule for the project, as well as the
+    basis for those estimates, and the points and circumstances in the project
+    when re-estimation will occur.
+    -->
+    <section><!-- Project Estimates {{{-->
+      <title>Project Estimates</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <section><!-- Project Plan {{{-->
+      <title>Project Plan</title>
+
+      <!--
+      Include the following:
+        * Work Breakdown Structure (WBS)
+        * A timeline or Gantt chart showing the allocation of time to the
+          project phases or iterations
+        * Identify major milestones with their achievement criteria
+      Define any important release points and demos.
+      -->
+      <section><!-- Phase Plan {{{-->
+        <title>Phase Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      List the objectives to be accomplished for each of the iterations.
+      -->
+      <section><!-- Iteration Objectives {{{-->
+        <title>Iteration Objectives</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      A brief description of each software release and whether it's demo, beta,
+      and so on.
+      -->
+      <section><!-- Releases {{{-->
+        <title>Releases</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Diagrams or tables showing target dates for completion of iterations and
+      phases, release points, demos, and other milestones.
+      -->
+      <section><!-- Project Schedule {{{-->
+        <title>Project Schedule</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <section><!-- Project Resourcing {{{-->
+        <title>Project Resourcing</title>
+
+        <!--
+        Identify the numbers and type of staff required here, including any
+        special skills or experience, scheduled by project phase or iteration.
+        -->
+        <section><!-- Staffing Plan {{{-->
+          <title>Staffing Plan</title>
+          <para>
+          </para>
+        </section><!--}}}-->
+
+        <!--
+        Describe how you will approach finding and acquiring the staff needed
+        for the project.
+        -->
+        <section><!-- Resource Acquisition Plan {{{-->
+          <title>Resource Acquisition Plan</title>
+          <para>
+          </para>
+        </section><!--}}}-->
+
+        <!--
+        List any special training project team members will require, with
+        target dates for when this training should be completed.
+        -->
+        <section><!-- Training Plan {{{-->
+          <title>Training Plan</title>
+          <para>
+          </para>
+        </section><!--}}}-->
+
+      </section><!--}}}-->
+
+      <!--
+      Allocation of costs against the WBS and the Phase Plan.
+      -->
+      <section><!-- Budget {{{-->
+        <title>Budget</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+    <!--
+    Each iteration plan will be enclosed in this section by reference.
+    -->
+    <section><!-- Iteration Plans {{{-->
+      <title>Iteration Plans</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <section><!-- Project Monitoring and Control {{{-->
+      <title>Project Monitoring and Control</title>
+
+      <!--
+      Enclosed by reference.
+      -->
+      <section><!-- Requirements Management Plan {{{-->
+        <title>Requirements Management Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Describe the approach taken to monitor progress against the planned
+      schedule and how to take corrective action when required.
+      -->
+      <section><!-- Schedule Control Plan {{{-->
+        <title>Schedule Control Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Describe the approach to be taken to monitor spending against the project
+      budget and how to take corrective action when required.
+      -->
+      <section><!-- Budget Control Plan {{{-->
+        <title>Budget Control Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Describe the timing and methods to be used to control the quality of the
+      project deliverables and how to take corrective action when required.
+      -->
+      <section><!-- Quality Control Plan {{{-->
+        <title>Quality Control Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Describe internal and external reports to be generated, and the frequency
+      and distribution of publication.
+      -->
+      <section><!-- Reporting Plan {{{-->
+        <title>Reporting Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+      <!--
+      Enclosed by reference.
+      -->
+      <section><!-- Measurement Plan {{{-->
+        <title>Measurement Plan</title>
+        <para>
+        </para>
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Risk Management Plan {{{-->
+      <title>Risk Management Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Describe the activities for the orderly completion of the project,
+    including staff reassignment, archiving of project materials, post-mortem
+    debriefings and reports, and so forth.
+    -->
+    <section><!-- Close-out Plan {{{-->
+      <title>Close-out Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Technical Process Plans {{{-->
+    <title>Technical Process Plans</title>
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Development Case {{{-->
+      <title>Development Case</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    List the documented project technical standards, etc., by reference:
+      * Business Modeling Guidelines
+      * User Interfaces Guidelines
+      * Use-Case-Modeling Guidelines
+      * Design Guidelines
+      * Programming Guidelines
+      * Test Guidelines
+      * Manual Style guide
+    -->
+    <section><!-- Methods, Tools and Techniques {{{-->
+      <title>Methods, Tools and Techniques</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Infrastructure Plan {{{-->
+      <title>Infrastructure Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Product Acceptance Plan {{{-->
+      <title>Product Acceptance Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Supporting Process Plans {{{-->
+    <title>Supporting Process Plans</title>
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Configuration Management Plan {{{-->
+      <title>Configuration Management Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    As part of the Software Development Plan, this describes the project's
+    plans for product evaluation, and covers the techniques, criteria, metrics,
+    and procedures used for evaluation- this will include walkthroughs,
+    inspections, and reviews. Note that this is in addition to the Test Plan,
+    which is not enclosed in the Software Development Plan.
+    -->
+    <section><!-- Evaluation Plan {{{-->
+      <title>Evaluation Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Documentation Plan {{{-->
+      <title>Documentation Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Quality Assurance Plan {{{-->
+      <title>Quality Assurance Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Problem Resolution Plan {{{-->
+      <title>Problem Resolution Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Subcontractor Management Plan {{{-->
+      <title>Subcontractor Management Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Enclosed by reference.
+    -->
+    <section><!-- Process Improvement Plan {{{-->
+      <title>Process Improvement Plan</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Additional plans if required by contract or regulations.
+  -->
+  <chapter><!-- Additional Plans {{{-->
+    <title>Additionalitional Plans</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Additional material of use to the reader of the Software Development Plan.
+  -->
+  <chapter><!-- Annexes {{{-->
+    <title>Annexes</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Index {{{-->
+    <title>Index</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

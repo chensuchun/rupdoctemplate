@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Supplementary Specification as described
+in the Rational Unified Process. Where applicable, comments will provide
+guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Supplementary Specification {{{-->
+
+  <!--
+  This is the front matter definition of the Supplementary Specification. Most
+  data is set through the text entities above. Only the history per revision
+  has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Supplementary Specification</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Supplementary Specification provides an overview of
+  the entire document. It includes the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of this Supplementary Specification. 
+
+  The Supplementary Specification captures the system requirements that are not
+  readily captured in the use cases of the use-case model. Such requirements
+  include: 
+
+    * Legal and regulatory requirements, including application standards. 
+
+    * Quality attributes of the system to be built, including usability,
+      reliability, performance, and supportability requirements. 
+
+    * Other requirements such as operating systems and environments,
+      compatibility requirements, and design constraints.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Supplementary Specification.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Supplementary Specification; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Supplementary
+    Specification. This information may be provided by reference to the
+    project's Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Supplementary Specification. Identify each document by title, report
+    number if applicable, date, and publishing organization.  Specify the
+    sources from which the references can be obtained. This information may be
+    provided by reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Supplementary Specification
+    contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes the functional requirements of the system for those
+  requirements which are expressed in the natural language style. For many
+  applications, this may constitute the bulk of the SRS Package and thought
+  should be given to the organization of this section. This section is
+  typically organized by feature, but alternative organization methods, for
+  example organization by user or organization by subsystem, may also be
+  appropriate. Functional requirements may include feature sets, capabilities,
+  and security.
+
+  Where application development tools, such as requirements tools, modeling
+  tools, and so on, are employed to capture the functionality, this section
+  document will refer to the availability of that data, indicating the location
+  and name of the tool used to capture the data.
+  -->
+  <chapter><!-- Functionality {{{-->
+    <title>Functionality</title>
+
+    <!--
+    Add a section for each functional requirement.
+    -->
+    <section>
+      <title>@@@ Functional Requirement @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter should include all of those requirements that affect usability.
+  Examples follow:
+
+    * Specify the required training time for a normal users and power users to
+      become productive at particular operations
+
+    * Specify measurable task times for typical tasks, or
+
+    * Specify requirements to conform to common usability standards, for
+      example, IBM's CUA standards or Microsoft's GUI standards
+  -->
+  <chapter><!-- Usability {{{-->
+    <title>Usability</title>
+
+    <!--
+    Add a section for each usability requirement.
+    -->
+    <section>
+      <title>@@@ Usability Requirement @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Requirements for reliability of the system should be specified here.
+  Suggestions are as follows:
+
+    * Availability - specify percentage of time available (xx.xx%), hours of
+      use, maintenance access, degraded mode operations, and the like.
+
+    * Mean Time Between Failures (MTBF) - this is usually specified in hours
+      but it could also be specified in terms of days, months or years.
+
+    * Mean Time To Repair (MTTR) - how long is the system allowed to be out of
+      operation after it has failed?
+
+    * Accuracy - specify precision (resolution) and accuracy (by some known
+      standard) that is required in the systems output.
+
+    * Maximum bugs or defect rate - usually expressed in terms of bugs/KLOC
+      (thousands of lines of code), or bugs/function-point.
+
+    * Bugs or defect rate - categorized in terms of minor, significant, and
+      critical bugs: the requirement(s) must define what is meant by a
+      "critical" bug; for example, complete loss of data or complete inability
+      to use certain parts of the functionality of the system.
+  -->
+  <chapter><!-- Reliability {{{-->
+    <title>Reliability</title>
+
+    <!--
+    Add a section for each reliability requirement.
+    -->
+    <section>
+      <title>@@@ Reliability Requirement @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  The performance characteristics of the system should be outlined in this
+  section. Include specific response times. Where applicable, reference related
+  Use Cases by name.
+
+    * Response time for a transaction(average, maximum)
+
+    * Throughput (for example, transactions per second)
+
+    * Capacity (for example, the number of customers or transactions the system
+      can accommodate)
+
+    * Degradation modes (what is the acceptable mode of operation when the
+      system has been degraded in some manner)
+
+    * Resource use: memory, disk, communications, and so forth
+  -->
+  <chapter><!-- Performance {{{-->
+    <title>Performance</title>
+
+    <!--
+    Add a section for each performance requirement.
+    -->
+    <section>
+      <title>@@@ Performance Requirement @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter indicates any requirements that will enhance the supportability
+  or maintainability of the system being built, including coding standards,
+  naming conventions, class libraries, maintenance access, maintenance
+  utilities.
+  -->
+  <chapter><!-- Supportability {{{-->
+    <title>Supportability</title>
+
+    <!--
+    Add a section for each supportability requirement.
+    -->
+    <section>
+      <title>@@@ Supportability Requirement @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter needs to indicate any design constraints on the system being
+  built. Design constraints represent design decisions that have been mandated
+  and must be adhered to. Examples include software languages, software process
+  requirements, prescribed use of developmental tools, architectural and design
+  constraints, purchased components, class libraries, and so on.
+  -->
+  <chapter><!-- Design Contraints {{{-->
+    <title>Design Contraints</title>
+
+    <!--
+    Add a section for each design constraint.
+    -->
+    <section>
+      <title>@@@ Design Contraint @@@</title>
+
+      <para>
+      </para>
+
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Describes the requirements, if any, for on-line user documentation, help
+  systems, help about notices, and so on.
+  -->
+  <chapter><!-- Online User Documentation and Help System Requirements {{{-->
+    <title>Online User Documentation and Help System Requirements</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes any purchased components to be used with the system ,
+  any applicable licensing or usage restrictions, and any associated
+  compatibility/interoperability or interface standards.
+  -->
+  <chapter><!-- Purchased Components {{{-->
+    <title>Purchased Components</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter defines the interfaces that must be supported by the
+  application. It should contain adequate specificity, protocols, ports and
+  logical addresses, and so forth, so that the software can be developed and
+  verified against the interface requirements.
+  -->
+  <chapter><!-- Interfaces {{{-->
+    <title>Interfaces</title>
+
+    <!--
+    Describe the user interfaces that are to be implemented by the software.
+    -->
+    <section><!-- User Interfaces {{{-->
+      <title>User Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section defines any hardware interfaces that are to be supported by
+    the software, including logical structure, physical addresses, expected
+    behavior, and so on.
+    -->
+    <section><!-- Hardware Interfaces {{{-->
+      <title>Hardware Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes software interfaces to other components of the
+    software system. These may be purchased components, components reused from
+    another application or components being developed for subsystems outside of
+    the scope of this SRS, but with which this software application must
+    interact.
+    -->
+    <section><!-- Software Interfaces {{{-->
+      <title>Software Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe any communications interfaces to other systems or devices such as
+    local area networks, remote serial devices, and so on.
+    -->
+    <section><!-- Communications Interfaces {{{-->
+      <title>Communications Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Defines any licensing enforcement requirements or other usage restriction
+  requirements that are to be exhibited by the software.
+  -->
+  <chapter><!-- Licensing Requirements {{{-->
+    <title>Licensing Requirements</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes any necessary legal disclaimers, warranties, copyright
+  notices, patent notice, wordmark, trademark, or logo compliance issues for
+  the software.
+  -->
+  <chapter><!-- Legal, Copyright and Other Notices {{{-->
+    <title>Legal, Copyright and Other Notices</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes by reference any applicable standards and the specific
+  sections of any such standards that apply to the system being described. For
+  example, this could include legal, quality and regulatory standards, industry
+  standards for usability, interoperability, internationalization, operating
+  system compliance, and so forth.
+  -->
+  <chapter><!-- Applicable Standards {{{-->
+    <title>Applicable Standards</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

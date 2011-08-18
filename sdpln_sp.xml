@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Software Development Plan as described in
+the Rational Unified Process. Where applicable, comments will provide guidance
+to the author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Software Development Plan {{{-->
+
+  <!--
+  This is the front matter definition of the Software Development Plan. Most
+  data is set through the text entities above. Only the history per revision
+  has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Software Development Plan (Small Project)</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Software Development Plan provides an overview of the
+  entire document. It includes the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of this Software Development Plan.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Software Development Plan.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+        The purpose of the Software Development Plan is to gather all
+        information necessary to control the project. It describes the approach
+        to the development of the software and is the top-level plan generated
+        and used by managers to direct the development effort.
+      </para>
+
+      <para>
+        The following people use the Software Development Plan: 
+
+        <itemizedlist mark='bullet'>
+          <listitem>
+            <para>
+              The project manager uses it to plan the project schedule and
+              resource needs, and to track progress against the schedule. 
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Project team members use it to understand what they need to do,
+              when they need to do it, and what other activities they are
+              dependent upon. 
+            </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Software Development Plan; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+        This Software Development Plan describes the overall plan to be used by
+        the &projectname; project, including deployment of the product. The
+        details of the individual iterations will be described in the Iteration
+        Plans.
+      </para>
+
+      <para>
+        The plans as outlined in this document are based upon the product
+        requirements as defined in the Vision Document.
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Software Development Plan.
+    This information may be provided by reference to the project's Glossary.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+        See the Project Glossary.
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Software Development Plan. Identify each document by title, report
+    number if applicable, date, and publishing organization.  Specify the
+    sources from which the references can be obtained. This information may be
+    provided by reference to an appendix or to another document. 
+
+    For the Software Development Plan, the list of referenced artifacts
+    includes: 
+      * RUP for Small Projects Website
+      * Iteration Plans 
+      * Development Case
+      * Vision
+      * Glossary
+      * Any other supporting plans or documentation.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This subsection describes what the rest of the Software Development Plan
+    contains and explains how the document is organized.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+        This Software Development Plan contains the following information:
+
+        <variablelist>
+          <varlistentry>
+            <term>Project Overview</term>
+            <listitem>
+              <para>
+                Provides a description of the project's purpose, scope, and
+                objectives.  It also defines the deliverables that the project
+                is expected to deliver.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Project Organization</term>
+            <listitem>
+              <para>
+                Describes the organizational structure of the project team.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Management Process</term>
+            <listitem>
+              <para>
+                Explains the estimated cost and schedule, defines the major
+                phases and milestones for the project, and describes how the
+                project will be monitored.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Applicable Plans and Guidelines</term>
+            <listitem>
+              <para>
+                Provides an overview of the software development process,
+                including methods, tools and techniques to be followed.
+              </para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Project Overview {{{-->
+    <title>Project Overview</title>
+
+    <!--
+    A brief description of the purpose and objectives of this project and a
+    brief description of what deliverables the project is expected to deliver.
+    -->
+    <section><!-- Project Purpose, Scope and Objectives {{{-->
+      <title>Project Purpose, Scope and Objectives</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A list of assumptions that this plan is based and any constraints, for
+    example. budget, staff, equipment, schedule, that apply to the project.
+    -->
+    <section><!-- Assumptions and Constraints {{{-->
+      <title>Assumptions and Constraints</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A list of the artifacts to be created during the project, including target
+    delivery dates.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Project Deliverables {{{-->
+      <title>Project Deliverables</title>
+
+      <para>
+        Deliverables for each project phase are identified in the Development
+        Case. Deliverables are delivered towards the end of the iteration, as
+        specified in section <xref linkend="projectschedule" />.
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A table of proposed versions of the Software Development Plan, and the
+    criteria for the unscheduled revision and reissue of this plan. The text
+    below is provided as an example.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Evolution of the Software Development Plan {{{-->
+      <title>Evolutionlution of the Software Development Plan</title>
+
+      <para>
+        The Software Development Plan will be revised prior to the start of
+        each Iteration phase.
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Project Organization {{{-->
+    <title>Project Organization</title>
+
+    <!--
+    Describe the organizational structure of the project team, including
+    management and other review authorities.
+    -->
+    <section><!-- Organizational Structure {{{-->
+      <title>Organizational Structure</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe how the project interfaces with external groups. For each external
+    group, identify the internal and external contact names. This should
+    include responsibilities related to deployment and acceptance of the
+    product.
+    -->
+    <section><!-- External Interfaces {{{-->
+      <title>External Interfaces</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    Identify the project organizational units that will be responsible for each
+    of the disciplines, workflow details, and supporting processes.
+    -->
+    <section><!-- Roles and Responsibilities {{{-->
+      <title>Roles and Responsibilities</title>
+
+      <para>
+
+        <!--
+        The following table can be used to summarize the roles and
+        responsibilities. See the commented entries. Add a row for each person.
+        -->
+
+        <informaltable>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>Person</entry>
+                <entry>Rational Unified Process Role</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <!--
+                  Name and function of the person, i.e. Sally Slalom, Senior Manager
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  A list of ALL the RUP Roles this person has, i.e.:
+                    * Project Manager
+                    * Deployment Manager
+                    * Requirements Reviewer
+                    * Architecture Reviewer
+                    * Configuration Manager
+                    * Change Control Manager
+                  Possibly use an itemized (bulleted) list here.
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Management Process {{{-->
+    <title>Management Process</title>
+
+    <!--
+    Provide the estimated cost and schedule for the project, as well as the
+    basis for those estimates, and the points and circumstances in the project
+    when re-estimation will occur.
+    -->
+    <section><!-- Project Estimates {{{-->
+      <title>Project Estimates</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section contains the schedule and resources for the project.
+    -->
+    <section><!-- Project Plan {{{-->
+      <title>Project Plan</title>
+
+      <!--
+      Include the following:
+        * Work Breakdown Structure (WBS) — optional for small projects
+        * A timeline or Gantt chart showing the allocation of time to the
+          project phases or iterations
+        * Identify major milestones with their achievement criteria
+      Define any important release points and demos.
+      -->
+      <section><!-- Phase Plan {{{-->
+        <title>Phase Plan</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      List the objectives to be accomplished for each of the iterations.
+      -->
+      <section><!-- Iteration Objectives {{{-->
+        <title>Iteration Objectives</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      A brief description of each software release and whether it's demo, beta,
+      and so on.
+      -->
+      <section><!-- Releases {{{-->
+        <title>Releases</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      Diagrams or tables showing target dates for completion of iterations and
+      phases, release points, demos, and other milestones.
+      -->
+      <section id="projectschedule"><!-- Project Schedule {{{-->
+        <title>Project Schedule</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+      <!--
+      Identify the numbers and type of staff required here, including any
+      special skills or experience, scheduled by project phase or iteration.
+
+      Describe how you will approach finding and acquiring the staff needed for
+      the project.
+
+      List any special training project team members will require, with target
+      dates for when this training should be completed.
+
+      Allocation of costs against the WBS and the Phase Plan.
+      -->
+      <section><!-- Project Resourcing {{{-->
+        <title>Project Resourcing</title>
+
+        <para>
+        </para>
+
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+    <!--
+    The following is a checklist of items to consider:
+
+      * Requirements Management : Specify the information and control
+        mechanisms which will be collected and used for measuring, reporting,
+        and controlling changes to the product requirements.
+
+      * Schedule and Budget Control:Describe the approach to be taken to
+        monitor spending against the project budget and progress against the
+        planned schedule. Describe how to take corrective action when required. 
+
+      * Quality Control:Describe the timing and methods to be used to control
+        the quality of the project deliverables and how to take corrective
+        action when required. Include techniques, metrics, criteria, and
+        procedures used for evaluation— this will include walkthroughs,
+        inspections, and reviews. Note that this is in addition to the Test
+        Plan, which is not enclosed in the Software Development Plan.
+
+      * Reporting and Measurement: Describe internal and external reports to be
+        generated, and the frequency and distribution of publication. Specify
+        which metrics should be collected and why.
+
+      * Risk Management: Describe the approach that will be used to identify,
+        analyze, prioritize, monitor and mitigate risks. Include a list of
+        risks and their current status.
+
+      * Project Close-out: Describe the activities for the orderly completion
+        of the project, including staff reassignment, archiving of project
+        materials, post-mortem debriefings and reports, and so forth.
+
+      * Configuration Management: Describe the process by which problems and
+        changes are submitted, reviewed, and dispositioned. Describe how
+        project or product artifacts are to be named, marked, and numbered,
+        including hardware, system software, Commercial-Off-The-Shelf (COTS),
+        plans, models, components, test software, results and data,
+        executables, and so on. Describe retention policies, and the back-up,
+        disaster, and recovery plans. Also describe how the media is to be
+        retained—online, offline, media type, and format.
+
+      * Problem Resolution: Describe the approach to be taken to resolve
+        disagreements with the customer, including how to handle schedule
+        slips, scope, and contractual disagreements. 
+
+      * Subcontractor Management: Describe how subcontractors will be managed.
+
+      * Process Improvement Plan: Describe how the effectiveness of the process
+        will be assessed and improved.
+
+    The inserted text is provided as an example. 
+    -->
+    <section><!-- Project Monitoring and Control {{{-->
+      <title>Project Monitoring and Control</title>
+
+      <section><!-- Requirements Management {{{-->
+        <title>Requirements Management</title>
+
+          <para>
+            The requirements for this system are captured in the Vision
+            document. Requested changes to requirements are captured in Change
+            Requests, and are approved as part of the Configuration Management
+            process.
+          </para>
+
+      </section><!--}}}-->
+
+      <section><!-- Schedule and Budget Control {{{-->
+        <title>Schedule and Budget Control</title>
+
+          <para>
+            Expenses are monitored by the project manager, and reported and
+            assessed monthly. (See Reporting and Measurement below).
+          </para>
+
+          <para>
+            The project manager maintains a schedule showing the expected date
+            of each milestone. The line items in the schedule include work
+            packages assigned to individuals. Each individual who is assigned a
+            work package provides %completion information to the project
+            manager on a weekly basis. Changes in the schedule will be
+            escalated to the project sponsors, who will then decide whether to
+            alter scope in order to preserve target completion dates.
+          </para>
+
+      </section><!--}}}-->
+
+      <section><!-- Quality Control {{{-->
+        <title>Quality Control</title>
+
+          <para>
+            Defects will be recorded and tracked as Change Requests, and defect
+            metrics will be gathered (see Reporting and Measurement below).
+          </para>
+
+          <para>
+            All deliverables are required to go through the appropriate review
+            process, as described in the Development Case. The review is
+            required to ensure that each deliverable is of acceptable quality,
+            using guidelines described in the RUP for Small Projects review
+            guidelines and checklists.
+          </para>
+
+          <para>
+            Any defects found during review which are not corrected prior to
+            releasing for integration must be captured as Change Requests so
+            that they are not forgotten.
+          </para>
+
+      </section><!--}}}-->
+
+      <section><!-- Reporting and Measurement {{{-->
+        <title>Reporting and Measurement</title>
+
+          <para>
+            Updated cost and schedule estimates, and metrics summary reports,
+            will be generated at the end of each iteration.
+          </para>
+
+          <para>
+            The Minimal Set of Metrics, as described in the RUP Guidelines:
+            Metrics, will be gathered on a weekly basis.  These include:
+
+            <variablelist>
+              <varlistentry>
+                <term>Earned value for completed tasks</term>
+                <listitem>
+                  <para>
+                    This is used to re-estimate the schedule and budget for the
+                    remainder of the project, and/or to identify need for scope
+                    changes.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Total defects open and closed</term>
+                <listitem>
+                  <para>
+                    Show as a trend graph. This is used to help estimate the
+                    effort remaining to correct defects. 
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Acceptance test cases passing</term>
+                <listitem>
+                  <para>
+                    Show as a trend graph. This is used to demonstrate progress
+                    to stakeholders.
+                  </para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+
+            In addition, overall costs will be monitored against the project
+            budget.
+          </para>
+
+      </section><!--}}}-->
+
+      <section><!-- Risk Management {{{-->
+        <title>Risk Management</title>
+
+          <para>
+            Risks will be identified in Inception Phase using the steps
+            identified in the RUP for Small Projects activity “Identify and
+            Assess Risks”. Project risk is evaluated at least once per
+            iteration and documented in this table. The risks of the greatest
+            magnitude are listed first in the table.
+
+            <informaltable>
+              <tgroup cols="3">
+                <thead>
+                  <row>
+                    <entry>
+                      Risk Ranking (High, Medium, Low)
+                    </entry>
+                    <entry>
+                      Risk Description and Impact
+                    </entry>
+                    <entry>
+                      Mitigation Strategy and/or Contingency Plan
+                    </entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <!--
+                  Add more rows if necessary.
+                  -->
+                  <row>
+                    <entry>
+                      <!-- Text here -->
+                    </entry>
+                    <entry>
+                      <!-- Text here -->
+                    </entry>
+                    <entry>
+                      <!-- Text here -->
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </informaltable>
+          </para>
+
+      </section><!--}}}-->
+
+      <section><!-- Configuration Management {{{-->
+        <title>Configuration Management</title>
+
+          <para>
+            Appropriate tools will be selected which provide a database of
+            Change Requests and a controlled versioned repository of project
+            artifacts.
+          </para>
+
+          <para>
+            All source code, test scripts, and data files are included in
+            baselines. Documentation related to the source code is also
+            included in the baseline, such as design documentation. All
+            customer deliverable artifacts are included in the final baseline
+            of the iteration, including executables.
+          </para>
+
+          <para>
+            The Change Requests are reviewed and approved by one member of the
+            project, the Change Control Manager role.
+          </para>
+
+          <para>
+            Full backups are performed monthly and incrementals are performed
+            nightly.
+          </para>
+
+      </section><!--}}}-->
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Additional material of use to the reader of the Software Development Plan.
+  Reference or include any project technical standards and plans which apply to
+  this project. This typically includes the Development Case, plans for
+  infrastructure, and product acceptance. It also typically includes
+  Programming Guidelines, Design Guidelines, and other process guidelines. The
+  text that follows is provided as an example.
+
+  The inserted text is provided as an example. 
+  -->
+  <chapter><!-- Annexes {{{-->
+    <title>Annexes</title>
+
+    <para>
+      The project will follow the RUP for Small Projects process, as tailored
+      by the project Development Case.
+    </para>
+
+    <para>
+      Other applicable process plans are listed in the references section,
+      including Programming Guidelines.
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

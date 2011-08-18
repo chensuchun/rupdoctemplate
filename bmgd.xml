@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Business Modeling Guidelines as described
+in the Rational Unified Process. Where applicable, comments will provide
+guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Business Modeling Guidelines {{{-->
+
+  <!--
+  This is the front matter definition of the Business Modeling Guidelines. Most
+  data is set through the text entities above. Only the history per revision
+  has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Business Modeling Guidelines</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Business Modeling Guidelines should provide an
+  overview of the entire document. It should include the purpose, scope,
+  definitions, acronyms, abbreviations, references, and overview of this
+  Business Modeling Guidelines.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Business Modeling Guidelines.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Business Modeling Guidelines; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Business Modeling
+    Guidelines. This information may be provided by reference to the project’s
+    Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Business Modeling Guidelines. Identify each document by title,
+    report number (if applicable), date, and publishing organization.  Specify
+    the sources from which the references can be obtained. This information may
+    be provided by reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Business Modeling Guidelines
+    contains and explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  The chapter describes which notation to use in the business use-case model.
+  For example, you may decide not to use extends-relationships between business
+  use cases.
+  -->
+  <chapter><!-- General Business Use-Case Modeling Guidelines {{{-->
+    <title>General Business Use-Case Modeling Guidelines</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter gives rules, recommendations, and style issues, and provides
+  instructions on how to describe each business use case.
+  -->
+  <chapter><!-- How to Describe a Business Use Case {{{-->
+    <title>How to Describe a Business Use Case</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes which notation to use in the business object model.
+  For example, you may have decided not to use generalization-relationships
+  between classes.
+  -->
+  <chapter><!-- General Business Object Modeling Guidelines {{{-->
+    <title>General Business Object Modeling Guidelines</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter gives rules, recommendations, and style issues, and provides
+  instructions on how to describe each business use-case realization.
+  -->
+  <chapter><!-- How to Describe a Business Use-Case Realization {{{-->
+    <title>How to Describe a Business Use-Case Realization</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter gives rules, recommendations, and style issues, and provides
+  instructions on how to describe each business worker
+  -->
+  <chapter><!-- How to Describe a Business Worker {{{-->
+    <title>How to Describe a Business Worker</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter gives rules, recommendations, and style issues, and provides
+  instructions on how to describe each business entity.
+  -->
+  <chapter><!-- How to Describe a Business Entity {{{-->
+    <title>How to Describe a Business Entity</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter contains or references specifications of Unified Modeling
+  Language (UML) stereotypes and their semantic implications—a textual
+  description of the meaning and significance of the stereotype and any
+  limitations on its use—for stereotypes already known or discovered to be
+  important for business, in general, or the type of business being modeled.
+  The use of these stereotypes may be simply recommended or perhaps even made
+  mandatory; for example, when their use is required by an imposed standard or
+  when it is felt that their use makes models significantly easier to
+  understand. This chapter may be empty if no additional stereotypes, other
+  than those predefined by the UML and the Rational Unified Process, are
+  considered necessary.
+  -->
+  <chapter><!-- UML Stereotypes {{{-->
+    <title>UML Stereotypes</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

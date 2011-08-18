@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Risk Management Plan as described in the
+Rational Unified Process. Where applicable, comments will provide guidance to
+the author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Risk Management Plan {{{-->
+
+  <!--
+  This is the front matter definition of the Risk Management Plan. Most data is
+  set through the text entities above. Only the history per revision has to be
+  set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Risk Management Plan</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Risk Management Plan provides an overview of the
+  entire document. It includes the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of this Risk Management Plan.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Risk Management Plan.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Risk Management Plan; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Risk Management Plan. This
+    information may be provided by reference to the project’s Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Risk Management Plan. Identify each document by title, report number
+    if applicable, date, and publishing organization. Specify the sources from
+    which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Risk Management Plan contains
+    and explain how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+
+      <para>
+      </para>
+
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  A brief overview of the project and summary of the overall amount of risk
+  involved in the project.
+  -->
+  <chapter><!-- Risk Summary {{{-->
+    <title>Risk Summary</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A brief description of the risk management tasks to be performed during the project. In this section, you should describe the following:
+
+    * The approach to be used to identify risks, and how the risk list will be
+      analyzed and prioritized.
+
+    * The risk management strategies that will be used, including mitigation,
+      avoidance, and/or prevention strategies for the most significant ("Top
+      10") risks.
+
+    * How the status of each significant risk and its mitigation activities
+      will be monitored. 
+
+    * Risk review and reporting schedules. A risk review should be part of each
+      iteration or phase acceptance review.
+  -->
+  <chapter><!-- Risk Management Tasks {{{-->
+    <title>Risk Management Tasks</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A list of the specific groups or individuals involved in the project’s risk
+  management activities, and a description of the tasks and responsibilities of
+  each.
+  -->
+  <chapter><!-- Organization and Responsibilities {{{-->
+    <title>Organization and Responsibilities</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  The budget available for managing project risks (when this information is not
+  already included in the overall project budget).
+  -->
+  <chapter><!-- Budget {{{-->
+    <title>Budget</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A list of the tools and techniques that will be used to store risk
+  information, evaluate risks, track the status of risks or generate risk
+  management reports.
+  -->
+  <chapter><!-- Tools and Techniques {{{-->
+    <title>Tools and Techniques</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A list of the risk items that have been identified. This can be a link to the
+  Artifact: Risk List for the project.
+
+  An industry best practice is to publish and keep visible a "Top 10" list of
+  risks that are considered significant enough for the project to spend
+  resources on their management. You may maintain a longer list if
+  organizational practice or the contract requires it.
+
+  Indicators that the risk is being realized and mitigation, avoidance, or
+  preventative strategies are identified for each listed risk. Some risks will
+  also require a description of the action that is contingent upon the risk
+  being realized.
+  -->
+  <chapter><!-- Risk Items to Manage {{{-->
+    <title>Risk Items to Manage</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Business Vision as described in the
+Rational Unified Process. Where applicable, comments will provide guidance to
+the author. At the authors discretion these comments can be deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Business Vision {{{-->
+
+  <!--
+  This is the front matter definition of the Business Vision. Most data is set
+  through the text entities above. Only the history per revision has to be set
+  by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Business Vision</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Business Vision provides an overview of the entire
+  document. It should include the purpose, scope, definitions, acronyms,
+  abbreviations, references, and overview of the Business Vision.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    Specify the purpose of this Business Vision document.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A brief description of the scope of this Business Vision document; what
+    Project(s) it is associated with and anything else that is affected or
+    influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Business Vision document.
+    This information may be provided by reference to the project’s Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section provides a complete list of all documents referenced elsewhere
+    in the Business Vision. Identify each document by title, report number if
+    applicable, date, and publishing organization. Specify the sources from
+    which the references can be obtained. This information may be provided by
+    reference to an appendix or to another document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This section describes what the rest of the Business Vision contains and
+    explains how the document is organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter helps to position the possible product in the marketplace by
+  describing where you think its place is in the market, the business
+  opportunities and what problems it solves.
+  -->
+  <chapter><!-- Positioning {{{-->
+    <title>Positioning</title>
+
+    <!--
+    Briefly describe the business opportunity being met by this project.
+    -->
+    <section><!-- Business opportunity {{{-->
+      <title>Business opportunity</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Provide a statement summarizing the problem being solved by this project.
+    -->
+    <section><!-- Problem statement {{{-->
+      <title>Problem statement</title>
+      <para>
+
+        <!--
+        The following table can be used to summarize the problem. See the
+        commented entries.
+        -->
+
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>The problem of</entry>
+                <entry>
+                  <!--
+                  Describe the problem
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>affects</entry>
+                <entry>
+                  <!--
+                  The stakeholders affected by the problem
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>the impact of which is</entry>
+                <entry>
+                  <!--
+                  What is the impact of the problem?
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>A successful solution would be</entry>
+                <entry>
+                  <!--
+                  List some key benefits of a successful solution
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A product position statement communicates the intent of the application and
+    the importance of the project to all concerned personnel.
+    -->
+    <section><!-- Product position statement {{{-->
+      <title>Product position statement</title>
+      <para>
+
+        <!--
+        Provide an overall statement summarizing at the highest level, the
+        unique position the product intends to fill in the marketplace. The
+        following format may be used (see the commented entries):
+        -->
+
+        <informaltable>
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>For</entry>
+                <entry>
+                  <!--
+                  Target customer
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Who</entry>
+                <entry>
+                  <!--
+                  Statement of the need or opportunity
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>The &projectname;</entry>
+                <entry>
+                  is a
+                  <!--
+                  Product category
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>That</entry>
+                <entry>
+                  <!--
+                  Statement of key benefit; that is,- compelling reason to buy.
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Unlike</entry>
+                <entry>
+                  <!--
+                  Primary competitive alternative.
+                  -->
+                </entry>
+              </row>
+              <row>
+                <entry>Our product</entry>
+                <entry>
+                  <!--
+                  Statement of primary differentiation.
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  To effectively provide products and services that meet your stakeholders' and
+  users' real needs, it is necessary to identify and involve all of the
+  stakeholders as part of the Requirements Modeling process. You must also
+  identify the users of the system and ensure that the stakeholder community
+  adequately represents them. This chapter provides a profile of the
+  stakeholders and users involved in the project and the key problems that they
+  perceive to be addressed by the proposed solution. It does not describe their
+  specific requests or requirements as these are captured in a separate
+  stakeholder requests artifact. Instead it provides the background and
+  justification for why the requirements are needed.
+  -->
+  <chapter><!-- Stakeholder and user descriptions {{{-->
+    <title>Stakeholder and user descriptions</title>
+
+    <!--
+    Summarize the key market demographics that motivate your product decisions.
+    Describe and position target market segments. Estimate the market's size
+    and growth by using the number of potential users, or the amount of money
+    your customers spend trying to meet needs that your product or enhancement
+    would fulfill. Review major industry trends and technologies. Answer these
+    strategic questions:
+      * What is your organization's reputation in these markets?
+      * What would you like it to be?
+      * How does this product or service support your goals?
+    -->
+    <section><!-- Market Demographics {{{-->
+      <title>Market Demographics</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Present a summary list of all the identified stakeholders.
+    -->
+    <section><!-- Stakeholder summary {{{-->
+      <title>Stakeholder summary</title>
+      <para>
+
+        <!--
+        Just add more rows to the table if necessary.
+        -->
+
+        <informaltable>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Name</entry>
+                <entry>Descriptions</entry>
+                <entry>Responsibilities</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <!--
+                  Name the stakeholder type
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Briefly describe the stakeholder
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Summarize the stakeholder's key responsibilities with regard
+                  to the system being developed; that is, their interest as a
+                  stakeholder. For example, this stakeholder:
+                    * Ensures that the system will be maintainable
+                    * Ensures that there will be a market demand for the
+                      product’s features
+                    * Monitors the project’s progress
+                    * Approves funding
+                    * And so forth
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Present a summary list of all the identified users.
+    -->
+    <section><!-- User summary {{{-->
+      <title>User summary</title>
+      <para>
+
+        <!--
+        Just add more rows to the table if necessary.
+        -->
+
+        <informaltable>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Name</entry>
+                <entry>Description</entry>
+                <entry>Responsibilities</entry>
+                <entry>Stakeholder</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <!--
+                  Name the user type
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  Briefly describe what they represent with respect to the
+                  system.
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  List the user's key responsibilities with regard to the
+                  system being developed; for example:
+                    * Captures details
+                    * Produces reports
+                    * Coordinates work
+                    * And so on
+                  -->
+                </entry>
+                <entry>
+                  <!--
+                  If the user is not directly represented, identify which
+                  stakeholder is responsible for representing the user's
+                  interest.
+                  -->
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Detail the working environment of the target user. Here are some
+    suggestions:
+      * Number of people involved in completing the task? Is this changing?
+      * How long is a task cycle? Amount of time spent in each activity? Is
+        this changing?
+      * Any unique environmental constraints: mobile, outdoors, in-flight,
+        etc.?
+      * Which systems platforms are in use today? Future platforms?
+      * What other applications are in use? Does your application need to
+        integrate with them?
+    This is where extracts from the Business Model could be included to outline
+    the task and workers involved etc.
+    -->
+    <section><!-- User environment {{{-->
+      <title>User environment</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Describe each stakeholder in the system here by filling in the following
+    table for each stakeholder. Remember stakeholder types can be as divergent
+    as users, strategy departments and technical developers. A thorough profile
+    should cover the following topics for each type of stakeholder.
+    -->
+    <section><!-- Stakeholder profiles {{{-->
+      <title>Stakeholder profiles</title>
+      <para>
+      </para>
+
+      <!--
+      Add a new section for each stakeholder.
+      -->
+      <section>
+        <!--
+        Replace the '@@@'s and the text in between with the name of the
+        stakeholder.
+        -->
+        <title>@@@ Stakeholder name @@@</title>
+        <para>
+          <informaltable>
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>Representative</entry>
+                  <entry>
+                    <!--
+                    Who is the stakeholder representative to the project?
+                    (optional if documented elsewhere). What we want here is
+                    names.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Description</entry>
+                  <entry>
+                    <!--
+                    Brief description of the stakeholder type.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Type</entry>
+                  <entry>
+                    <!--
+                    Qualify the stakeholder's expertise, technical background,
+                    and degree of sophistication that is, guru, business,
+                    expert, casual user, etc.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Responsibilities</entry>
+                  <entry>
+                    <!--
+                    List the stakeholder's key responsibilities with regards to
+                    the system being developed that is, their interest as a
+                    stakeholder.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Success Criteria</entry>
+                  <entry>
+                    <!--
+                    How does the stakeholder define success? How is the
+                    stakeholder rewarded?
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Involvement</entry>
+                  <entry>
+                    <!--
+                    How the stakeholder is involved in the project? Relate
+                    where possible to RUP workers that is, Requirements
+                    Reviewer etc.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Deliverables</entry>
+                  <entry>
+                    <!--
+                    Are there any additional deliverables required by the
+                    stakeholder?  These could be project deliverables or
+                    outputs from the system under development.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Comments / Issues</entry>
+                  <entry>
+                    <!--
+                    Problems that interfere with success and any other relevant
+                    information go here.
+                    -->
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </para>
+      </section>
+
+    </section><!--}}}-->
+
+    <!--
+    Describe each unique user of the system here by filling in the following
+    table for each customer type. A thorough profile should cover the following
+    topics for each type of user (add a new section for each profile):
+    -->
+    <section><!-- Customer profiles {{{-->
+      <title>Customer profiles</title>
+      <para>
+      </para>
+
+      <!--
+      Add a new section for each customer.
+      -->
+      <section>
+        <!--
+        Replace the '@@@'s and the text in between with the name of the
+        customer.
+        -->
+        <title>@@@Customer name@@@</title>
+        <para>
+          <informaltable>
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>Representative</entry>
+                  <entry>
+                    <!--
+                    Who is the user representative to the project?  (optional
+                    if documented elsewhere). This often refers to the
+                    Stakeholder that represents the set of users, for example,
+                    Stakeholder: Stakeholder1.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Description</entry>
+                  <entry>
+                    <!--
+                    A brief description of the customer type.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Type</entry>
+                  <entry>
+                    <!--
+                    Qualify the customer's expertise, technical background, and
+                    degree of sophistication - that is, guru, casual user, etc.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Responsibilities</entry>
+                  <entry>
+                    <!--
+                    List the customer's key responsibilities with regards to
+                    the system being developed - that is, captures details,
+                    produces reports, coordinates work, etc.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Success Criteria</entry>
+                  <entry>
+                    <!--
+                    How does the customer define success? How is the customer
+                    rewarded?
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Involvement</entry>
+                  <entry>
+                    <!--
+                    How the customer is involved in the project? Relate where
+                    possible to Rational Unified Process roles - that is,
+                    Requirements Reviewer, etc.
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Deliverables</entry>
+                  <entry>
+                    <!--
+                    Are there any deliverables the customer produces and, if
+                    so, for whom?
+                    -->
+                  </entry>
+                </row>
+                <row>
+                  <entry>Comments and Issues</entry>
+                  <entry>
+                    <!--
+                    Problems that interfere with success and any other relevant
+                    information go here. These would include trends that make
+                    the customer's job easier or more difficult.
+                    -->
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </informaltable>
+        </para>
+      </section>
+
+    </section><!--}}}-->
+
+    <!--
+    List the key problems with existing solutions as perceived by the
+    stakeholder. Clarify the following issues for each problem:
+      * What are the reasons for this problem?
+      * How is it solved now?
+      * What solutions does the user want?]
+    It is important to understand the relative importance the stakeholder
+    places on solving each problem. Ranking and cumulative voting techniques
+    indicate problems that must be solved versus issues they would like
+    addressed.
+    -->
+    <section><!-- Key stakeholder or Customer Needs {{{-->
+      <title>Key Stakeholder or Customer Needs</title>
+
+      <para>
+
+        <!--
+        Fill in the following table - if using ReqPro to capture the Needs, this
+        could be an extract or report from that tool. Add more rows when necessary.
+        -->
+        <informaltable>
+          <tgroup cols="5">
+            <thead>
+              <row>
+                <entry>Need</entry>
+                <entry>Priority</entry>
+                <entry>Concerns</entry>
+                <entry>Current Solution</entry>
+                <entry>Proposed Solution</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+                <entry>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Identify alternatives the stakeholder perceives as available. These can
+    include buying a competitors' product, building a homegrown solution or
+    simply maintaining the status quo. List any known competitive choices that
+    exist, or may become available. Include the major strengths and weaknesses
+    of each competitor as perceived by the stakeholder.
+    -->
+    <section><!-- Alternatives and competition {{{-->
+      <title>Alternatives and competition</title>
+      <para>
+      </para>
+
+      <!--
+      Add a new section for each competitor.
+      -->
+      <section>
+        <!--
+        Replace the '@@@'s and the text in between with the name of the
+        competitor.
+        -->
+        <title>@@@ Competitor @@@</title>
+        <para>
+          <!-- Description here. See above. -->
+        </para>
+      </section>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <chapter><!-- Business Modeling Objectives {{{-->
+    <title>Business Modeling Objectives</title>
+
+    <!--
+    Add a new section for each objective.
+    -->
+    <section>
+      <!--
+      Replace the '@@@'s and the text in between with the name of the
+      objective.
+      -->
+      <title>@@@ Objective @@@</title>
+      <para>
+      </para>
+    </section>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Note any design constraints, external constraints or other dependencies.
+  -->
+  <chapter><!-- Constraints {{{-->
+    <title>Constraints</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Define the quality ranges for performance, robustness, fault tolerance,
+  usability, and similar characteristics that are not captured in the
+  objectives.
+  -->
+  <chapter><!-- Quality Ranges {{{-->
+    <title>Quality Ranges</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  Define the priority of the different objectives.
+  -->
+  <chapter><!-- Precedence and Priority {{{-->
+    <title>Precedence and Priority</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  At a high level, list applicable standards, hardware or platform
+  requirements, performance requirements, and environmental requirements.
+  -->
+  <chapter><!-- Other Requirements {{{-->
+    <title>Other Requirements</title>
+
+    <!--
+    List all standards with which the business must comply. These can include
+    legal and regulatory (FDA, UCC) communications standards (TCP/IP, ISDN),
+    platform compliance standards (Windows, UNIX, and so on), and quality and
+    safety standards (UL, ISO, CMM).
+    -->
+    <section><!-- Applicable Standards {{{-->
+      <title>Applicable Standards</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Define any system requirements necessary to support the application. These
+    may include the supported host operating systems and network platforms,
+    configurations, memory, peripherals, and companion software.
+    -->
+    <section><!-- System Requirements {{{-->
+      <title>System Requirements</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Use this section to detail performance requirements. Performance issues can
+    include such items as user load factors, bandwidth or communication
+    capacity, throughput, accuracy, and reliability or response times under a
+    variety of loading conditions.
+    -->
+    <section><!-- Performance Requirements {{{-->
+      <title>Performance Requirements</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    Detail environmental requirements as needed. For hardware-based systems,
+    environmental issues include temperature, shock, humidity, radiation, and
+    so on. For software applications, environmental factors include usage
+    conditions, user environment, resource availability, maintenance issues,
+    and error handling and recovery.
+    -->
+    <section><!-- Environmental Requirements {{{-->
+      <title>Environmental Requirements</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  Objectives are given attributes used to evaluate, track, prioritize, and
+  manage the product items proposed for implementation. List and briefly
+  describe the attributes you have chosen. See the Artifact:  Requirement
+  Management Plan for a set of suggested feature attributes
+  -->
+  <appendix><!-- Objective Attributes {{{-->
+    <title>Objective Attributes</title>
+
+    <para>
+    </para>
+
+  </appendix><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->

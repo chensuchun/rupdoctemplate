@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<!--
+Copyright 2006 Niels Heirbaut. All rights reserved.
+
+Redistribution and use in source (XML DocBook) and 'compiled' forms (SGML,
+XML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are
+permitted provided that the following conditions are met:
+
+   1.  Redistributions of source code (XML DocBook) must retain the above
+       copyright notice, this list of conditions and the following disclaimer
+       as the first lines of this file unmodified.
+
+THIS DOCUMENTATION IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!--
+This template can be used to create a Business Architecture Document as
+described in the Rational Unified Process. Where applicable, comments will
+provide guidance to the author. At the authors discretion these comments can be
+deleted.
+-->
+
+<!--{{{-->
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+
+<!--
+Text entities. They are used to define document wide definitions. Replace the
+'@@@ xxx @@@' definitions with the correct ones. If necessary custom text
+entities should be added here.
+-->
+<!--{{{-->
+<!ENTITY projectname    "@@@ Your Project @@@">
+<!ENTITY projectacronym "@@@ Your Project Acronym @@@">
+<!ENTITY firstname      "@@@ First Name @@@">
+<!ENTITY surname        "@@@ Last Name @@@">
+<!ENTITY copyrightyear  "@@@ Year @@@">
+<!--}}}-->
+
+]>
+<!--}}}-->
+
+<book lang="en"><!-- Business Architecture Document {{{-->
+
+  <!--
+  This is the front matter definition of the Business Architecture Document.
+  Most data is set through the text entities above. Only the history per
+  revision has to be set by hand. See <revhistory> below.
+  -->
+  <bookinfo><!-- Front Matter {{{-->
+
+    <title>&projectname;</title>
+    <subtitle>Business Architecture Document</subtitle>
+
+    <author>
+      <firstname>&firstname;</firstname>
+      <surname>&surname;</surname>
+    </author>
+
+    <copyright>
+      <year>&copyrightyear;</year>
+      <holder>&firstname; &surname;</holder>
+    </copyright>
+
+    <revhistory>
+
+      <!--
+      For each revision a <revision> section has to be added.
+      -->
+      <revision>
+        <revnumber></revnumber>
+        <date></date>
+        <authorinitials></authorinitials>
+        <revremark></revremark>
+      </revision>
+
+    </revhistory>
+
+  </bookinfo><!--}}}-->
+
+  <!--
+  The introduction of the Business Architecture Document provides an overview
+  of the entire Business Architecture Document. It includes the purpose, scope,
+  definitions, acronyms, abbreviations, references and overview of the Business
+  Architecture Document.
+  -->
+  <chapter><!-- Introduction {{{-->
+    <title>Introduction</title>
+
+    <!--
+    This section defines the role or purpose of the Business Architecture
+    Document, in the overall project documentation, and briefly describes the
+    structure of the document. The specific audiences for the document should
+    be identified, with an indication of how they are expected to use the
+    document.
+
+    A generic purpose description has been inserted. Leave it as it is or
+    change it according your needs.
+    -->
+    <section><!-- Purpose {{{-->
+      <title>Purpose</title>
+      <para>
+        This document provides a comprehensive architectural overview of the
+        business, using a number of different architectural views to depict
+        different aspects of the business. It is intended to capture and convey
+        the significant architectural decisions that have been made.
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    A brief description of what the Business Architecture Document applies to;
+    what is affected or influenced by this document.
+    -->
+    <section><!-- Scope {{{-->
+      <title>Scope</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This subsection provides the definitions of all terms, acronyms, and
+    abbreviations required to properly interpret the Business Architecture
+    Document. This information may be provided by reference to the project's
+    Business Glossary.
+    -->
+    <section><!-- Definitions, acronyms and abbreviations {{{-->
+      <title>Definitions, acronyms and abbreviations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This subsection provides a complete list of all documents referenced
+    elsewhere in the Business Architecture Document. Identify each document by
+    title, report number (if applicable), date, and publishing organization.
+    Specify the sources from which the references can be obtained. This
+    information may be provided by reference to an appendix or to another
+    document.
+    -->
+    <section><!-- References {{{-->
+      <title>References</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+    <!--
+    This subsection describes what the rest of the Business Architecture
+    Document contains and explains how it's organized.
+    -->
+    <section><!-- Overview {{{-->
+      <title>Overview</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes what business architecture is for the current business
+  and how it is represented. With regard to the Business Process View,
+  Organization Structure View, Cultural View, and Human Resource Aspects View,
+  it enumerates those views necessary and, for each view, explains what types
+  of model elements it contains.
+  -->
+  <chapter><!-- Architectural Representation {{{-->
+    <title>Architectural Representation</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes the requirements and objectives that have some
+  significant impact on the business architecture—use of a particular
+  technology, character of geographic distribution. It also captures the
+  special constraints that may apply, such as standards, development tools,
+  team structure, culture, and so on.
+  -->
+  <chapter><!-- Architectural Goals and Constraints {{{-->
+    <title>Architectural Goals and Constraints</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter lists business use cases or business scenarios from the business
+  use-case model if they represent some significant, central capability of the
+  final business, or if they have a large architectural coverage—they exercise
+  many architectural elements or if they stress or illustrate a specific,
+  delicate point of the business architecture.
+  -->
+  <chapter><!-- Business Process View {{{-->
+    <title>Business Process View</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes the architecturally significant parts of the business
+  object model, such as its decomposition into organization units.
+  -->
+  <chapter><!-- Organization Structure View {{{-->
+    <title>Organization Structure View</title>
+
+    <para>
+    </para>
+
+    <!--
+    This section illustrates how the organization actually works by giving a
+    few selected business use-case (or scenario) realizations, and explains how
+    the various business object model elements contribute to their
+    functionality.
+    -->
+    <section><!-- Business Use-Case Realizations {{{-->
+      <title>Business Use-Case Realizations</title>
+      <para>
+      </para>
+    </section><!--}}}-->
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes the cultural characteristics of the organization, as
+  well as the mechanisms put in place to encourage those characteristics.
+  -->
+  <chapter><!-- Cultural View {{{-->
+    <title>Cultural View</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes the mechanisms put in place to grow and develop the
+  human resources of the organization.
+  -->
+  <chapter><!-- Human Resource Aspects View {{{-->
+    <title>Human Resource Aspects View</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  This chapter describes key elements of a domain model for the organization.
+  This chapter is OPTIONAL.
+  -->
+  <chapter><!-- Domain View {{{-->
+    <title>Domain View</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A description of the major dimensioning characteristics of the business that
+  impact the business architecture, as well as the target performance
+  constraints.
+  -->
+  <chapter><!-- Size and Performance Goals {{{-->
+    <title>Size and Performance Goals</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+  <!--
+  A description of how the business architecture contributes to all
+  capabilities, other than functionality, of the business, such as
+  extensibility, reliability, ability to grow, and so on.
+  -->
+  <chapter><!-- Quality Goals {{{-->
+    <title>Quality Goals</title>
+
+    <para>
+    </para>
+
+  </chapter><!--}}}-->
+
+</book><!--}}}-->
+
+<!-- vim: set ts=2 sw=2 fo+=t et ff=unix filetype=docbkxml fdm=marker: -->
